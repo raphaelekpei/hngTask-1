@@ -21,7 +21,7 @@ public class ApiController {
             @RequestParam("slack_name") String slackName,
             @RequestParam("track") String track
     ) {
-        String githubFileUrl = "https://github.com/raphaelekpei/hngTask-1/blob/master/src/main/java/com/raphael/hng/hngstagetaskone/service/ApiServiceImpl.java";
+        String githubFileUrl = "https://github.com/raphaelekpei/hngTask-1/blob/master/src/main/java/com/raphael/hng/hngstagetaskone/controller/ApiController.java";
         String githubRepoUrl = "https://github.com/raphaelekpei/hngTask-1";
 
         String currentDay = getCurrentDayOfWeek();
