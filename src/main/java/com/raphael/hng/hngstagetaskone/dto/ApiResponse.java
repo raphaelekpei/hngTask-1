@@ -1,13 +1,11 @@
 package com.raphael.hng.hngstagetaskone.dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 
-@Getter
-@Setter
+@Data
 @Builder
+@AllArgsConstructor
 public class ApiResponse {
     private String slack_name;
     private String current_day;

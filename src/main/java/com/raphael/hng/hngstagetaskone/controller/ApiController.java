@@ -21,8 +21,8 @@ public class ApiController {
             @RequestParam("slack_name") String slackName,
             @RequestParam("track") String track
     ) {
-        String githubFileUrl = "https://github.com/raphaelekpei/hngTask-1/blob/master/src/main/java/com/raphael/hng/hngstagetaskone/controller/ApiController.java";
-        String githubRepoUrl = "https://github.com/raphaelekpei/hngTask-1";
+        String github_file_url = "https://github.com/raphaelekpei/hngTask-1/blob/master/src/main/java/com/raphael/hng/hngstagetaskone/controller/ApiController.java";
+        String github_repo_url = "https://github.com/raphaelekpei/hngTask-1";
 
         String currentDay = getCurrentDayOfWeek();
 
@@ -34,8 +34,8 @@ public class ApiController {
                 .current_day(currentDay)
                 .utc_time(utcTime)
                 .track(track)
-                .github_file_Url(githubFileUrl)
-                .github_repo_url(githubRepoUrl)
+                .github_file_Url(github_file_url)
+                .github_repo_url(github_repo_url)
                 .status_code(HttpStatus.OK.value())
                 .build();
 
