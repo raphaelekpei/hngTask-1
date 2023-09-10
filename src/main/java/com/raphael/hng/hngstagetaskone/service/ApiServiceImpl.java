@@ -20,7 +20,7 @@ public class ApiServiceImpl implements ApiService {
 
         String utcTime = getCurrentUTCDateTime();
 
-        String githubFileUrl = "https://github.com/raphaelekpei/hngTask-1/tree/master/src/main/java/com/raphael/hng/hngstagetaskone";
+        String githubFileUrl = "https://github.com/raphaelekpei/hngTask-1/blob/master/src/main/java/com/raphael/hng/hngstagetaskone/controller/ApiController.java";
         String githubRepoUrl = "https://github.com/raphaelekpei/hngTask-1";
 
         return ApiResponse
