@@ -4,7 +4,6 @@ import lombok.*;
 
 
 @Data
-@Builder
 @AllArgsConstructor
 public class ApiResponse {
     private String slack_name;
