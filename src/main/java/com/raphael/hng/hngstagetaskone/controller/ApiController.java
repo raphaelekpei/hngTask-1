@@ -30,7 +30,7 @@ public class ApiController {
         String github_file_url = "https://github.com/raphaelekpei/hngTask-1/blob/master/src/main/java/com/raphael/hng/hngstagetaskone/controller/ApiController.java";
         String github_repo_url = "https://github.com/raphaelekpei/hngTask-1";
 
-        ApiResponse apiResponse = new ApiResponse(slackName, track, current_day, utc_time, github_file_url, github_repo_url, HttpStatus.OK.value());
+        ApiResponse apiResponse = new ApiResponse(slackName, current_day, utc_time, track, github_file_url, github_repo_url, HttpStatus.OK.value());
         return ResponseEntity.ok(apiResponse);
 
     }
