@@ -16,15 +16,12 @@ public class ApiServiceImpl implements ApiService {
     @Override
     public ApiResponse getInfo(String slackName, String track) {
 
-//        String specificSlackName = "Raphael Ekpei";
-//        String specificTrack = "backend";
-
         String currentDay = getCurrentDayOfWeek();
 
         String utcTime = getCurrentUTCDateTime();
 
-        String githubFileUrl = "https://github.com/raphaelekpei/hngTaskOne/tree/master/src/main/java/com/raphael/hng/hngtaskone";
-        String githubRepoUrl = "https://github.com/raphaelekpei/hngTaskOne";
+        String githubFileUrl = "https://github.com/raphaelekpei/hngTask-1/tree/master/src/main/java/com/raphael/hng/hngstagetaskone";
+        String githubRepoUrl = "https://github.com/raphaelekpei/hngTask-1";
 
         return ApiResponse
                 .builder()
